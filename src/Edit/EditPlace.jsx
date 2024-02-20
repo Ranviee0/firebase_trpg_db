@@ -24,15 +24,13 @@ function EditPlace() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // This code will run every time the component mounts or the page refreshes
     queryPlace();
   }, []);
 
   useEffect(() => {
-    // This code will run every time the component mounts or the page refreshes
     setTimeout(() => {
       queryPlace();
-    }, 500);
+    }, 2000);
   }, [isEditing]);
 
   async function queryPlace() {

@@ -30,7 +30,7 @@ function EditItem() {
   useEffect(() => {
     setTimeout(() => {
       queryItem();
-    }, 2000);
+    }, 1000);
   }, [isEditing]);
 
   async function queryItem() {

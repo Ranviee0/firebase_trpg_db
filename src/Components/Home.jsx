@@ -24,6 +24,12 @@ function Home() {
   }
 
   useEffect(() => {
+    setTimeout(() => {
+      queryHomeArticle();
+    }, 2000);
+  }, [isEditing]);
+
+  useEffect(() => {
     async function checking() {
       if ((await checkExistence()) == true) {
         console.log("startPage already exists");

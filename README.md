@@ -1,8 +1,9 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To run this project locally with your own data:
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Step 0: Make sure to have node.js installed and have created a new empty Firestore database.
+Step 1: Download this repository
+Step 2: Change the API key in firebase.js to match with your newly created Firestore database.
+Step 3: cd into the folder, and run the "npm install" command to install all dependencies.
+Step 4: "npm run dev" to run.

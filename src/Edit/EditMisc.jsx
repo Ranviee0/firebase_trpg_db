@@ -24,15 +24,13 @@ function EditMisc() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // This code will run every time the component mounts or the page refreshes
     queryMisc();
   }, []);
 
   useEffect(() => {
-    // This code will run every time the component mounts or the page refreshes
     setTimeout(() => {
       queryMisc();
-    }, 500);
+    }, 2000);
   }, [isEditing]);
 
   async function queryMisc() {

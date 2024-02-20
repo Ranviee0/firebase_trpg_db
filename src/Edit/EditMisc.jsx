@@ -30,7 +30,7 @@ function EditMisc() {
   useEffect(() => {
     setTimeout(() => {
       queryMisc();
-    }, 2000);
+    }, 1000);
   }, [isEditing]);
 
   async function queryMisc() {

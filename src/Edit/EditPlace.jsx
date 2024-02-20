@@ -30,7 +30,7 @@ function EditPlace() {
   useEffect(() => {
     setTimeout(() => {
       queryPlace();
-    }, 2000);
+    }, 1000);
   }, [isEditing]);
 
   async function queryPlace() {

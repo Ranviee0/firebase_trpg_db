@@ -30,7 +30,7 @@ function EditCharacter() {
   useEffect(() => {
     setTimeout(() => {
       queryCharacter();
-    }, 2000);
+    }, 1000);
   }, [isEditing]);
 
   async function queryCharacter() {
